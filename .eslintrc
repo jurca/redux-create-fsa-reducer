@@ -1,0 +1,6 @@
+{
+  "extends": "fbjs-opensource",
+  "parserOptions": {
+    "sourceType": "script"
+  }
+}

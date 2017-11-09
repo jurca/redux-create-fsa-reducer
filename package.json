@@ -1,0 +1,33 @@
+{
+  "name": "redux-create-fsa-reducer",
+  "version": "1.0.0",
+  "description": "Redux reducer factory that is designed for use with Flux Standard Actions (FSA).",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jurca/redux-create-fsa-reducer.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "redux",
+    "reducer",
+    "factory",
+    "fsa"
+  ],
+  "author": "Martin Jurča <mjurca@centrum.cz>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jurca/redux-create-fsa-reducer/issues"
+  },
+  "homepage": "https://github.com/jurca/redux-create-fsa-reducer#readme",
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-fbjs-opensource": "^1.0.0",
+    "jest": "^21.2.1"
+  }
+}
