@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Redux reducer factory that is designed for use with Flux Standard Actions (FSA).",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "jest"
   },
@@ -26,8 +27,11 @@
   },
   "homepage": "https://github.com/jurca/redux-create-fsa-reducer#readme",
   "devDependencies": {
-    "eslint": "^4.10.0",
-    "eslint-config-fbjs-opensource": "^1.0.0",
-    "jest": "^21.2.1"
+    "@types/jest": "^24.0.0",
+    "@types/node": "^10.12.23",
+    "jest": "^24.1.0",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
   }
 }
