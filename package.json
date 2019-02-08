@@ -1,6 +1,6 @@
 {
   "name": "redux-create-fsa-reducer",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Redux reducer factory that is designed for use with Flux Standard Actions (FSA).",
   "main": "index.js",
   "types": "index.d.ts",
