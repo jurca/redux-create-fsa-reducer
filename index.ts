@@ -40,7 +40,7 @@ export default <
         const currentState = state === undefined ? initialState : state
         if (action.type in reducerMethods) {
             const actionReducer = reducerMethods[action.type]
-            if ("error" in action) {
+            if ("error" in action && action.error) {
                 return (actionReducer as ErrorActionReducer<S, Error, any>)(
                     currentState,
                     undefined,
