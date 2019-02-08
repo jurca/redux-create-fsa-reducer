@@ -5,7 +5,11 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "jest"
+    "build": "rm -rf dist && npm test && npm run compile && cp package.json README.md dist/",
+    "compile": "tsc --project tsconfig.json --outDir dist",
+    "test": "tslint --project tsconfig.json && jest",
+    "prepublishOnly": "echo 'Use npm run publish-package' && exit 1",
+    "check-uncommitted": "git diff --exit-code >/dev/null && git diff --cached --exit-code >/dev/null"
   },
   "repository": {
     "type": "git",

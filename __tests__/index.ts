@@ -1,4 +1,4 @@
-import createReducer from "./index"
+import createReducer from "../index"
 
 describe("redux-create-fsa-reducer", () => {
   it('should output a warning in non-production environment if an "undefined" action type handler is present', () => {

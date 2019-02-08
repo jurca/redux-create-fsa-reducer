@@ -15,5 +15,8 @@
     "pretty": true,
     "strictFunctionTypes": true,
     "strictNullChecks": true
-  }
+  },
+  "include": [
+    "index.ts"
+  ]
 }
